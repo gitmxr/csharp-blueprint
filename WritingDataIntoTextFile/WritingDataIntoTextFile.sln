@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingDataIntoTextFile", "WritingDataIntoTextFile\WritingDataIntoTextFile.csproj", "{F2F844EB-1208-4005-8FEC-847379097E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F844EB-1208-4005-8FEC-847379097E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F844EB-1208-4005-8FEC-847379097E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F844EB-1208-4005-8FEC-847379097E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F844EB-1208-4005-8FEC-847379097E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F07307C9-1BE1-4F64-9984-F0C364F146E1}
+	EndGlobalSection
+EndGlobal

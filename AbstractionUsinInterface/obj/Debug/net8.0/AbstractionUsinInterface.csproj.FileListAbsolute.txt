@@ -1,0 +1,14 @@
+C:\c#_Work\AbstractionUsinInterface\bin\Debug\net8.0\AbstractionUsinInterface.exe
+C:\c#_Work\AbstractionUsinInterface\bin\Debug\net8.0\AbstractionUsinInterface.deps.json
+C:\c#_Work\AbstractionUsinInterface\bin\Debug\net8.0\AbstractionUsinInterface.runtimeconfig.json
+C:\c#_Work\AbstractionUsinInterface\bin\Debug\net8.0\AbstractionUsinInterface.dll
+C:\c#_Work\AbstractionUsinInterface\bin\Debug\net8.0\AbstractionUsinInterface.pdb
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.AssemblyInfoInputs.cache
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.AssemblyInfo.cs
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.csproj.CoreCompileInputs.cache
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.dll
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\refint\AbstractionUsinInterface.dll
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.pdb
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\AbstractionUsinInterface.genruntimeconfig.cache
+C:\c#_Work\AbstractionUsinInterface\obj\Debug\net8.0\ref\AbstractionUsinInterface.dll

@@ -1,0 +1,7 @@
+C:\c#_Work\c#_Basics\c#_Basics\bin\Debug\c#_Basics.exe.config
+C:\c#_Work\c#_Basics\c#_Basics\bin\Debug\c#_Basics.exe
+C:\c#_Work\c#_Basics\c#_Basics\bin\Debug\c#_Basics.pdb
+C:\c#_Work\c#_Basics\c#_Basics\obj\Debug\c#_Basics.csproj.AssemblyReference.cache
+C:\c#_Work\c#_Basics\c#_Basics\obj\Debug\c#_Basics.csproj.CoreCompileInputs.cache
+C:\c#_Work\c#_Basics\c#_Basics\obj\Debug\c#_Basics.exe
+C:\c#_Work\c#_Basics\c#_Basics\obj\Debug\c#_Basics.pdb

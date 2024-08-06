@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\c#_Work\\c#_Basics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BB1BD2A-9AE2-4414-B22A-4BF6431E8322}|c#_Basics\\c#_Basics.csproj|c:\\c#_work\\c#_basics\\c#_basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BB1BD2A-9AE2-4414-B22A-4BF6431E8322}|c#_Basics\\c#_Basics.csproj|solutionrelative:c#_basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\c#_Work\\c#_Basics\\c#_Basics\\Program.cs",
+              "RelativeDocumentMoniker": "c#_Basics\\Program.cs",
+              "ToolTip": "C:\\c#_Work\\c#_Basics\\c#_Basics\\Program.cs",
+              "RelativeToolTip": "c#_Basics\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T18:01:47.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

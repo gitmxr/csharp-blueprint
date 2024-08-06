@@ -1,0 +1,14 @@
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\bin\Debug\net8.0\CollectionsPractice.exe
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\bin\Debug\net8.0\CollectionsPractice.deps.json
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\bin\Debug\net8.0\CollectionsPractice.runtimeconfig.json
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\bin\Debug\net8.0\CollectionsPractice.dll
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\bin\Debug\net8.0\CollectionsPractice.pdb
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.AssemblyInfoInputs.cache
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.AssemblyInfo.cs
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.dll
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\refint\CollectionsPractice.dll
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.pdb
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\CollectionsPractice.genruntimeconfig.cache
+C:\Users\rohai\source\repos\CollectionsPractice\CollectionsPractice\obj\Debug\net8.0\ref\CollectionsPractice.dll

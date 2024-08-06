@@ -1,0 +1,14 @@
+C:\Users\rohai\source\repos\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.exe
+C:\Users\rohai\source\repos\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.deps.json
+C:\Users\rohai\source\repos\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.runtimeconfig.json
+C:\Users\rohai\source\repos\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.dll
+C:\Users\rohai\source\repos\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.pdb
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.AssemblyInfoInputs.cache
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.AssemblyInfo.cs
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.csproj.CoreCompileInputs.cache
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.dll
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\refint\PropertiesPractice.dll
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.pdb
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.genruntimeconfig.cache
+C:\Users\rohai\source\repos\PropertiesPractice\obj\Debug\net8.0\ref\PropertiesPractice.dll

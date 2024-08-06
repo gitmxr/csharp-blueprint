@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\c#_Work\\WritingDataIntoTextFile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F844EB-1208-4005-8FEC-847379097E6D}|WritingDataIntoTextFile\\WritingDataIntoTextFile.csproj|c:\\c#_work\\writingdataintotextfile\\writingdataintotextfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F844EB-1208-4005-8FEC-847379097E6D}|WritingDataIntoTextFile\\WritingDataIntoTextFile.csproj|solutionrelative:writingdataintotextfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\c#_Work\\WritingDataIntoTextFile\\WritingDataIntoTextFile\\Program.cs",
+              "RelativeDocumentMoniker": "WritingDataIntoTextFile\\Program.cs",
+              "ToolTip": "C:\\c#_Work\\WritingDataIntoTextFile\\WritingDataIntoTextFile\\Program.cs",
+              "RelativeToolTip": "WritingDataIntoTextFile\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAADcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:56:21.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\rohai\source\repos\EncupsulationPractice\bin\Debug\net8.0\EncupsulationPractice.exe
+C:\Users\rohai\source\repos\EncupsulationPractice\bin\Debug\net8.0\EncupsulationPractice.deps.json
+C:\Users\rohai\source\repos\EncupsulationPractice\bin\Debug\net8.0\EncupsulationPractice.runtimeconfig.json
+C:\Users\rohai\source\repos\EncupsulationPractice\bin\Debug\net8.0\EncupsulationPractice.dll
+C:\Users\rohai\source\repos\EncupsulationPractice\bin\Debug\net8.0\EncupsulationPractice.pdb
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.AssemblyInfoInputs.cache
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.AssemblyInfo.cs
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.csproj.CoreCompileInputs.cache
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.dll
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\refint\EncupsulationPractice.dll
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.pdb
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\EncupsulationPractice.genruntimeconfig.cache
+C:\Users\rohai\source\repos\EncupsulationPractice\obj\Debug\net8.0\ref\EncupsulationPractice.dll
