@@ -56,7 +56,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthentication();
 
 app.MapDefaultControllerRoute();
