@@ -1,7 +1,0 @@
-C:\c#_Work\NamesGames\NamesGames\bin\Debug\NamesGames.exe.config
-C:\c#_Work\NamesGames\NamesGames\bin\Debug\NamesGames.exe
-C:\c#_Work\NamesGames\NamesGames\bin\Debug\NamesGames.pdb
-C:\c#_Work\NamesGames\NamesGames\obj\Debug\NamesGames.csproj.AssemblyReference.cache
-C:\c#_Work\NamesGames\NamesGames\obj\Debug\NamesGames.csproj.CoreCompileInputs.cache
-C:\c#_Work\NamesGames\NamesGames\obj\Debug\NamesGames.exe
-C:\c#_Work\NamesGames\NamesGames\obj\Debug\NamesGames.pdb

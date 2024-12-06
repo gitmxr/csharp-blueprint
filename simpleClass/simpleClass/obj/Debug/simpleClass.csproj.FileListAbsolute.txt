@@ -1,7 +1,0 @@
-C:\c#_Work\simpleClass\simpleClass\bin\Debug\simpleClass.exe.config
-C:\c#_Work\simpleClass\simpleClass\bin\Debug\simpleClass.exe
-C:\c#_Work\simpleClass\simpleClass\bin\Debug\simpleClass.pdb
-C:\c#_Work\simpleClass\simpleClass\obj\Debug\simpleClass.csproj.AssemblyReference.cache
-C:\c#_Work\simpleClass\simpleClass\obj\Debug\simpleClass.csproj.CoreCompileInputs.cache
-C:\c#_Work\simpleClass\simpleClass\obj\Debug\simpleClass.exe
-C:\c#_Work\simpleClass\simpleClass\obj\Debug\simpleClass.pdb
