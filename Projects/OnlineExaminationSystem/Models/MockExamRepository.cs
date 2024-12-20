@@ -2,7 +2,7 @@
 {
     public class MockExamRepository : IExamRepository
     {
-        public readonly IQuestionRepository question = new MockQuestionRepository();
+      //  public readonly IQuestionRepository question = new MockQuestionRepository();
         List<Exam> _examList = new List<Exam>()
         {
             new Exam
@@ -34,7 +34,7 @@
 
             },
         };
-        public IEnumerable<Exam> GetAllExam()
+        public IEnumerable<Exam> GetAllExams()
         {
             return _examList;
         }

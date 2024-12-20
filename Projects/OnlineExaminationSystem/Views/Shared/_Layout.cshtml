@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Examination System</title>
+
+    <!-- Bootstrap CSS (Local Version) -->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS (optional for your styling) -->
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navbar (Optional) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Online Examination System</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Footer (Optional) -->
+    <footer class="bg-dark text-center text-white mt-5 py-3">
+        <div>
+            &copy; @DateTime.Now.Year - Online Examination System
+        </div>
+    </footer>
+
+    <!-- jQuery (Local Version) -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Bundle (JS) (Local Version) -->
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

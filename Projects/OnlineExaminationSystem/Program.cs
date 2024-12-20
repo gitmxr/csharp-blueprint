@@ -1,3 +1,5 @@
+using OnlineExaminationSystem.Models;
+
 namespace OnlineExaminationSystem
 {
     public class Program
@@ -5,9 +7,21 @@ namespace OnlineExaminationSystem
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddScoped<IExamRepository, MockExamRepository>();
+
+            builder.Services.AddControllersWithViews();
+
             var app = builder.Build();
 
-            app.MapGet("/", () => "Hello World!");
+            app.UseStaticFiles();
+
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+            app.MapDefaultControllerRoute();
 
             app.Run();
         }

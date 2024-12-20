@@ -2,7 +2,7 @@
 {
     public interface IExamRepository
     { 
-        IEnumerable<Exam> GetAllExam();
+        IEnumerable<Exam> GetAllExams();
         Exam GetExamById (int examId);
         void AddExam(Exam exam);
         void DeleteExam(int examId);
