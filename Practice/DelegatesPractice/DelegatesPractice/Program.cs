@@ -10,7 +10,7 @@
             /*
              * Action (upto 16 parameters, return type: void)
              * 
-             * Func   (has return type)
+             * Func   (has return type,can take 0 to 16 parameters)
              * 
              * Predicate (returns bool)
              */
