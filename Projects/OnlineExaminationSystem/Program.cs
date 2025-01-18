@@ -9,6 +9,7 @@ namespace OnlineExaminationSystem
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddScoped<IExamRepository, MockExamRepository>();
+            builder.Services.AddScoped<IUserRepository, MockUserRepository>();
 
             builder.Services.AddControllersWithViews();
 

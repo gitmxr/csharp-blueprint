@@ -1,0 +1,35 @@
+﻿@model IEnumerable<OnlineExaminationSystem.Models.User>
+
+@{
+    ViewData["Title"] = "User List";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().FullName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Email)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Role)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>
+                    <a href="@Url.Action("Details", "User", new { id = user.UserId })" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Edit", "User", new { id = user.UserId })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", "User", new { id = user.UserId })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "User")" class="btn btn-success">Create New User</a>
