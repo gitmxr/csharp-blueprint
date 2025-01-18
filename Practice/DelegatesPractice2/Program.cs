@@ -98,9 +98,28 @@ namespace DelegatesPractice2
             List<int> filter = numbers.FindAll(num => num > 10);
 
             Console.WriteLine(string.Join(", ", filter)); 
+            Console.WriteLine("**********************");
+           
+
+            // Predicate to filter numbers greater than 10
+            Predicate<int> isGreaterThanTen = num => num > 10;
+
+            // Func to double a number
+            Func<int, int> doubleNumber = num => num * 2;
+
+            // Action to print a number
+            Action<int> printNumber = num => Console.WriteLine($"Number: {num}");
+
+            // Filter numbers
+            List<int> filteredNumbers = numbers.FindAll(isGreaterThanTen);
+
+            // Process and print the filtered numbers
+            foreach (int number in filteredNumbers)
+            {
+                int doubled = doubleNumber(number);  // Double the number
+                printNumber(doubled);                // Print the doubled number
+            }
             Console.ReadLine();
-
-
 
 
         }
