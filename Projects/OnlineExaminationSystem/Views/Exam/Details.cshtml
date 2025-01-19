@@ -1,0 +1,18 @@
+﻿@model OnlineExaminationSystem.Models.Exam
+
+@{
+    ViewData["Title"] = "Exam Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h3>@Model.Title</h3>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Exam Date:</strong> @Model.ExamDate.ToString("dd MMM yyyy")</p>
+    <p><strong>Duration:</strong> @Model.Duration minutes</p>
+</div>
+
+<a href="@Url.Action("Edit", "Exam", new { id = Model.ExamId })" class="btn btn-warning">Edit Exam</a>
+<a href="@Url.Action("Delete", "Exam", new { id = Model.ExamId })" class="btn btn-danger">Delete Exam</a>
+<a href="@Url.Action("ExamInfo", "Exam")" class="btn btn-primary">Back to Exam List</a>

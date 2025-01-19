@@ -1,0 +1,15 @@
+﻿@model OnlineExaminationSystem.Models.Exam
+
+@{
+    ViewData["Title"] = "Delete Exam";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Are you sure you want to delete the exam <strong>@Model.Title</strong>?</p>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="ExamId" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a href="@Url.Action("ExamInfo", "Exam")" class="btn btn-secondary">Cancel</a>
+</form>
