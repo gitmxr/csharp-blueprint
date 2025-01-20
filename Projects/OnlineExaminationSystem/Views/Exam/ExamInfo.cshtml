@@ -20,28 +20,28 @@
                     <th>Description</th>
                     <th>Date</th>
                     <th>Duration</th>
-                    <th>Actions</th> <!-- Added column for actions -->
+                    <th>Actions</th> 
                 </tr>
             </thead>
             <tbody>
                 @foreach (var exam in Model)
                 {
-                    <tr>
-                        <td class="fw-bold">
-                            <a href="@Url.Action("Details", "Exam", new { id = exam.ExamId })">
+                        <tr>
+                            <td class="fw-bold">
+                                <a href="@Url.Action("Details", "Exam", new { id = exam.ExamId })">
                                 @exam.Title
-                            </a>
-                        </td>
-                        <td>@exam.Description</td>
-                        <td>@exam.ExamDate.ToString("dd MMM yyyy")</td>
-                        <td>@exam.Duration minutes</td>
-                        <td>
-                            <!-- Action Buttons with Better Colors -->
-                            <a href="@Url.Action("Details", "Exam", new { id = exam.ExamId })" class="btn btn-outline-primary">View</a>
-                            <a href="@Url.Action("Edit", "Exam", new { id = exam.ExamId })" class="btn btn-outline-warning">Edit</a>
-                            <a href="@Url.Action("Delete", "Exam", new { id = exam.ExamId })" class="btn btn-outline-danger">Delete</a>
-                        </td>
-                    </tr>
+                                </a>
+                            </td>
+                            <td>@exam.Description</td> 
+                            <td>@exam.ExamDate.ToString("dd MMM yyyy")</td>
+                            <td>@exam.Duration minutes</td>
+                            <td>
+                                <!-- Action Buttons with Better Colors -->
+                                <a href="@Url.Action("Details", "Exam", new { id = exam.ExamId })" class="btn btn-outline-primary">View</a>
+                                <a href="@Url.Action("Edit", "Exam", new { id = exam.ExamId })" class="btn btn-outline-warning">Edit</a>
+                                <a href="@Url.Action("Delete", "Exam", new { id = exam.ExamId })" class="btn btn-outline-danger">Delete</a>
+                            </td>
+                        </tr>
                 }
             </tbody>
         </table>
