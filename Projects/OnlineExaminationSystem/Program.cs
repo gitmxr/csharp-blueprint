@@ -22,8 +22,11 @@ namespace OnlineExaminationSystem
                 app.UseDeveloperExceptionPage();
             }
 
-            app.MapDefaultControllerRoute();
+            //app.MapDefaultControllerRoute();
 
+            app.MapControllerRoute(
+                name: "Default",
+                pattern: "{controller=User}/{action=Index}");        
             app.Run();
         }
     }
