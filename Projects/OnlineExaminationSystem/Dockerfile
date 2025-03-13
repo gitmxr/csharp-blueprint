@@ -1,17 +1,36 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS my-app
+# Build Stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
+# Set the working directory inside the container
 WORKDIR /app
 
-COPY . .
+# Copy the solution and project files to the container
+COPY OnlineExaminationSystem.sln ./
+COPY OnlineExaminationSystem.csproj ./
 
-RUN dotnet publish -c Release -o /app/out
+# Restore dependencies
+RUN dotnet restore
 
-#FROM mcr.microsoft.com/dotnet/aspnet:7.0
+# Copy the rest of the application code (app source files)
+COPY . ./
 
-FROM nginx:alpine
+# Set the working directory to the project folder
+WORKDIR /app
 
-WORKDIR /usr/share/nginx/html
+# Publish the app in Release mode
+RUN dotnet publish -c Release -o out
 
-COPY --from=my-app /app/out .
+# Runtime Stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 
-#ENTRYPOINT ["dotnet", "YourAppName.dll"]
+# Set the working directory inside the runtime container
+WORKDIR /app
+
+# Copy the published application from the build stage
+COPY --from=build /app/out ./
+
+# Expose the port your app listens on (adjust as needed)
+EXPOSE 8080
+
+# Set the entry point to run the application
+ENTRYPOINT ["dotnet", "OnlineExaminationSystem.dll"]
