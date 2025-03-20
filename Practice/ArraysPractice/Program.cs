@@ -85,6 +85,58 @@
                 Console.WriteLine(i + " ");
             }
 
+
+            Console.WriteLine("**************************************");
+            Console.WriteLine(  "MULTI-DIMENTIONAL ARRAY");
+
+            int[,] recArray = new int[2, 3]
+            {
+            {2,3,4},
+            {3,4,5 }
+            };
+            Console.Write("RecArray :{ ");
+            for (int i = 0;i < recArray.GetLength(0);i++)
+            {
+                Console.Write("{");
+                for (int m = 0; m < recArray.GetLength(1); m++)
+                {
+                    Console.Write(recArray[i, m]+ " ");
+                }
+                Console.Write("}");
+            }
+            Console.WriteLine("};");
+
+            Console.WriteLine("**************************************");
+            Console.WriteLine("3D ARRAY");
+
+            int[,,] _3DayArray = new int[2, 2, 3]
+            {
+              { 
+
+                    {1,2,3 },{4,5,6 } 
+
+              },//layer 1
+
+              {
+
+                {6,7,8 },{ 9,10,11}
+
+              }, //layer 2
+            };
+
+
+            for (int i = 0; i < _3DayArray.GetLength(0); i++)
+            {
+                for (int m = 0; m < _3DayArray.GetLength(1); m++)
+                {
+                    for (int n = 0; n < _3DayArray.GetLength(2); n++)
+                    {
+                        Console.Write(_3DayArray[i, m, n] + " "); // Print element
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
             Console.ReadKey();
 
         }
