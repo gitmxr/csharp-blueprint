@@ -147,6 +147,12 @@ namespace Csharp_Array_Class
             Console.WriteLine("Name from clnArray : " + clnArray[0].Name);
             Console.WriteLine("\n*****************************************************************************");
 
+            Person[] personObj;
+
+            personObj = new Person[2];
+
+
+
 
 
             Console.ReadKey();
