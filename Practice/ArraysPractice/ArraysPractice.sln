@@ -5,7 +5,13 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysPractice", "ArraysPractice.csproj", "{12AACEC5-2340-470F-A147-7AEDE823E585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Array_Class", "..\C#-Array-Class\Csharp_Array_Class.csproj", "{21943B7F-2B17-4904-802B-1341AF12280A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp_Array_Class", "..\C#-Array-Class\Csharp_Array_Class.csproj", "{21943B7F-2B17-4904-802B-1341AF12280A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayIndexing", "..\ArrayIndexing\ArrayIndexing.csproj", "{14D710B9-0C3A-4797-A3B3-23844819320C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "..\BubbleSort\BubbleSort.csproj", "{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "..\QuickSort\QuickSort.csproj", "{76017966-3C81-49B7-8E71-F3AE5BFC28B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{21943B7F-2B17-4904-802B-1341AF12280A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21943B7F-2B17-4904-802B-1341AF12280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21943B7F-2B17-4904-802B-1341AF12280A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D710B9-0C3A-4797-A3B3-23844819320C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D710B9-0C3A-4797-A3B3-23844819320C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D710B9-0C3A-4797-A3B3-23844819320C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D710B9-0C3A-4797-A3B3-23844819320C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
