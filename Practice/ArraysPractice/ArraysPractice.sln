@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysPractice", "ArraysPra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp_Array_Class", "..\C#-Array-Class\Csharp_Array_Class.csproj", "{21943B7F-2B17-4904-802B-1341AF12280A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayIndexing", "..\ArrayIndexing\ArrayIndexing.csproj", "{14D710B9-0C3A-4797-A3B3-23844819320C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayIndexing", "..\ArrayIndexing\ArrayIndexing.csproj", "{14D710B9-0C3A-4797-A3B3-23844819320C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "..\BubbleSort\BubbleSort.csproj", "{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionAtSpecificIndex", "..\InsertionAtSpecificIndex\InsertionAtSpecificIndex.csproj", "{6B9D3930-4A31-47D1-A107-AED35DE1A188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "..\QuickSort\QuickSort.csproj", "{76017966-3C81-49B7-8E71-F3AE5BFC28B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionAtStart", "..\InsertionAtStart\InsertionAtStart.csproj", "{4837E9AC-EC04-4259-8FB7-90871E047916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionAtLast", "..\InsertionAtLast\InsertionAtLast.csproj", "{0129DADE-4175-40C2-A0C0-140913E69034}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +33,18 @@ Global
 		{14D710B9-0C3A-4797-A3B3-23844819320C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D710B9-0C3A-4797-A3B3-23844819320C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D710B9-0C3A-4797-A3B3-23844819320C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC9AAEF5-0CC6-4BFA-8584-3D9B2A8EEC21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76017966-3C81-49B7-8E71-F3AE5BFC28B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9D3930-4A31-47D1-A107-AED35DE1A188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9D3930-4A31-47D1-A107-AED35DE1A188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9D3930-4A31-47D1-A107-AED35DE1A188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9D3930-4A31-47D1-A107-AED35DE1A188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4837E9AC-EC04-4259-8FB7-90871E047916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4837E9AC-EC04-4259-8FB7-90871E047916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4837E9AC-EC04-4259-8FB7-90871E047916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4837E9AC-EC04-4259-8FB7-90871E047916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0129DADE-4175-40C2-A0C0-140913E69034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0129DADE-4175-40C2-A0C0-140913E69034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0129DADE-4175-40C2-A0C0-140913E69034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0129DADE-4175-40C2-A0C0-140913E69034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
